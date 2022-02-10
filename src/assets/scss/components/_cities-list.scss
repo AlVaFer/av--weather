@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+.cities {
+    width: 180px;
+    height: 100%;
+    float: left;
+  
+    tr {
+      text-align: left;
+      font-size: 14px;
+      cursor: pointer;
+      width: 180px;
+      height: 40px;
+      margin: 10px 9px 5px 0px;
+      padding: 8px 8px 11px 10px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      box-shadow: 0.3px 0.3px 0.3px 0.3px;
+  
+      &:nth-child(odd) {
+        background-color: #ffffff;
+      }
+  
+      &:nth-child(even) {
+        background-color: #ebe9e9;
+      }
+  
+      &.active {
+        background-color: #5f9ea0;
+        color: white;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        box-shadow: 0.3px 0.3px 0.3px 0.3px;
+      }
+    }
+  
+    td {
+      &:first-child {
+        padding-left: 7px;
+      }
+  
+      i {
+        width: 24px;
+        height: 25px;
+        margin: 0 0 0 14px;
+        font-size: 18px;
+      }
+    }
+  }
+  

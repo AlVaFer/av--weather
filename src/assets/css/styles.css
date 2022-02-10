@@ -1,0 +1,199 @@
+.app {
+  font-family: lato;
+  text-align: center;
+  width: 402px;
+  height: 100%;
+  margin-top: 34px;
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal; }
+
+.search-form {
+  margin: 0px 0px 15px 0px;
+  width: 390px;
+  height: 24px; }
+  .search-form input {
+    width: 304px;
+    height: auto;
+    padding: 0 0 0 10px;
+    border: solid 0.5px rgba(98, 98, 98, 0.4);
+    border-radius: 4px 0px 0px 4px;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    background-color: #f0f0f0; }
+  .search-form button {
+    width: 86px;
+    height: 29px;
+    color: white;
+    padding: 0px 0 2px 2px;
+    border-radius: 0px 4px 4px 0px;
+    -webkit-border-radius: 0px 4px 4px 0px;
+    border: solid 0.5px rgba(98, 98, 98, 0.4);
+    background-color: #5f9ea0; }
+
+.cities {
+  width: 180px;
+  height: 100%;
+  float: left; }
+  .cities tr {
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    margin: 10px 9px 5px 0px;
+    padding: 8px 8px 11px 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 0.3px 0.3px 0.3px 0.3px; }
+    .cities tr:nth-child(odd) {
+      background-color: #ffffff; }
+    .cities tr:nth-child(even) {
+      background-color: #ebe9e9; }
+    .cities tr.active {
+      background-color: #5f9ea0;
+      color: white;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      box-shadow: 0.3px 0.3px 0.3px 0.3px; }
+  .cities td:first-child {
+    padding-left: 7px; }
+  .cities td i {
+    width: 24px;
+    height: 25px;
+    margin: 0 0 0 14px;
+    font-size: 18px; }
+
+.detail {
+  display: inline-block;
+  position: relative;
+  color: white;
+  width: 201px;
+  height: 291px;
+  padding: 6px 0 8px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 2px 2px 6px 2px;
+  background-color: #5f9ea0; }
+  .detail h4 {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px; }
+  .detail .data {
+    line-height: 0.6;
+    text-align: left;
+    padding-left: 20px; }
+  .detail .detail-img-bkg {
+    position: absolute;
+    bottom: -10px;
+    right: 12px;
+    transform: translate(0 12px 0 0);
+    -ms-transform: translate(0 12px 0 0);
+    color: white;
+    opacity: 0.2;
+    font-size: 100px; }
+  .detail sub {
+    display: block;
+    font-size: 12px;
+    padding-bottom: 25px; }
+
+.btn-detail {
+  position: absolute;
+  bottom: 8px;
+  background-color: #e22929;
+  color: white;
+  margin-left: 15px;
+  padding: 10px 38px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 1px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  cursor: pointer; }
+
+#detail-error {
+  background-color: #969494;
+  position: relative;
+  left: 11px;
+  transform: translate(0 0 0 9px);
+  -ms-transform: translate(0 0 0 9px);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 2px 2px 6px 2px;
+  padding: 10px;
+  width: 201px;
+  height: 291px;
+  color: white;
+  display: flex;
+  align-items: center; }
+
+.clear {
+  clear: both; }
+
+.weather-icon {
+  width: 100px; }
+
+.wi {
+  line-height: 1.4;
+  *padding: 15px;
+  font-size: 50px; }
+
+/* openweathermap */
+.owm-01d:before {
+  content: "\f00d"; }
+
+.owm-02d:before {
+  content: "\f002"; }
+
+.owm-03d:before {
+  content: "\f041"; }
+
+.owm-04d:before {
+  content: "\f013"; }
+
+.owm-09d:before {
+  content: "\f01a"; }
+
+.owm-10d:before {
+  content: "\f008"; }
+
+.owm-11d:before {
+  content: "\f01e"; }
+
+/*f010*/
+.owm-13d:before {
+  content: "\f01b"; }
+
+.owm-50d:before {
+  content: "\f003"; }
+
+.owm-01n:before {
+  content: "\f02e"; }
+
+.owm-02n:before {
+  content: "\f086"; }
+
+.owm-03n:before {
+  content: "\f041"; }
+
+.owm-04n:before {
+  content: "\f013"; }
+
+.owm-09n:before {
+  content: "\f01a"; }
+
+.owm-10n:before {
+  content: "\f028"; }
+
+.owm-11n:before {
+  content: "\f01e"; }
+
+/*f02d*/
+.owm-13n:before {
+  content: "\f01b"; }
+
+.owm-50n:before {
+  content: "\f04a"; }

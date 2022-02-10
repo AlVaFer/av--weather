@@ -1,0 +1,21 @@
+.app {
+    font-family: lato;
+    text-align: center;
+    width: 402px;
+    height: 100%;
+    margin-top: 34px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+@import 'components/search-bar';
+@import 'components/cities-list';
+@import 'components/detail';
+@import 'components/icons';
+
+
+
