@@ -1,5 +1,5 @@
 
-### PRUEBA TÉCNICA ALVARO VF PARA EMPRESA VV, 10 octubre 2021
+### PRUEBA TÉCNICA ALVARO VF PARA EMPRESA VV
 
 ### NOTAS DEL PROGRAMADOR:
 He añadido la funcionalidad extra de que al buscar una ciudad que ya existe, se activa y muestra en bloque Detalle. Cuando el valor introducido en búsqueda es, por ejemplo, 000, muestra el mensaje de error.
